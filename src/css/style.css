@@ -195,3 +195,18 @@ footer {
 .icons i:hover {
   color: black;
 }
+
+/* Files */
+.pdf-files a {
+  margin: 2rem 0;
+  display: block;
+}
+
+.pdf-files a:hover {
+  font-weight: bold;
+  color: #0060aa;
+}
+
+.pdf-files a:nth-last-child() {
+  margin: 0;
+}
